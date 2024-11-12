@@ -1,0 +1,20 @@
+ไลบรารี่ที่ใช้
+npm init - y
+npm install express morgan core nodemon jwt bcrypt
+
+ฐานข้อมูลและการติดต่อ
+MySQL
+prima
+jsonwebtoken
+
+วิธีการติดตั้งและเชื่อมต่อฐานข้อมูล
+npm prisma
+npx prisma init
+npm prisma @prisma/client
+npx prisma db pull
+
+อัพเดต Database
+npx migrate dev --name RESTapi
+
+****อัพเฉพาะตารางที่ต้องการ***
+npx prisma migrate dev --name ตามด้วยชื่อคอลัม
